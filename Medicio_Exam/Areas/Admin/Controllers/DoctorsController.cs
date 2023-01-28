@@ -46,7 +46,17 @@ namespace Medicio_Exam.Areas.Admin.Controllers
         public async Task<IActionResult> Create(CreateDoctorVM createDoctorVM)
         {
             if(!ModelState.IsValid) return View(createDoctorVM);
-            if (createDoctorVM is null) return NotFound();
+            if (createDoctorVM is null) return BadRequest();
+            if(createDoctorVM.Image.CheckFileSize(500))
+            {
+                ModelState.AddModelError("Image", "Max Image size is 300kByte");
+                return View(createDoctorVM);
+            }
+            if(!createDoctorVM.Image.CheckFileFormat("image/"))
+            {
+                ModelState.AddModelError("Image", "Wrong file format,insert an image type");
+                return View(createDoctorVM);
+            }
             //var fileName =await createDoctorVM.Image.CopyFileAsync(_env.WebRootPath, "assets", "img", "doctors");
             //Doctor doctor = new()
             //{
@@ -85,6 +95,16 @@ namespace Medicio_Exam.Areas.Admin.Controllers
             if (model is null) return NotFound();
             if (id != model.Id) return BadRequest();
 
+            if (updateDoctorVM.Image.CheckFileSize(500))
+            {
+                ModelState.AddModelError("Image", "Max Image size is 300kByte");
+                return View(updateDoctorVM);
+            }
+            if (!updateDoctorVM.Image.CheckFileFormat("image/"))
+            {
+                ModelState.AddModelError("Image", "Wrong file format,insert an image type");
+                return View(updateDoctorVM);
+            }
             //var fileName = await updateDoctorVM.Image.CopyFileAsync(_env.WebRootPath, "assets", "img", "doctors");
             //model.Name=updateDoctorVM.Name;
             //model.Position = updateDoctorVM.Position;

@@ -16,6 +16,6 @@ namespace Business.ViewModels.Doctors
         [Required, MaxLength(100)]
         public string? Position { get; set; }
         [Required]
-        public IFormFile Image { get; set; }
+        public IFormFile? Image { get; set; }
     }
 }

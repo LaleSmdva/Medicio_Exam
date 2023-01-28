@@ -15,7 +15,7 @@ namespace DataAccess.Contexts
         public AppDbContext(DbContextOptions<AppDbContext>opts):base(opts)
         {
         }
-        public DbSet<Doctor> Doctors { get; set; }
-        public DbSet<Settings> SettingsTable { get; set; }
+        public DbSet<Doctor> Doctors { get; set; } = null!;
+        public DbSet<Settings> SettingsTable { get; set; } = null!;
     }
 }

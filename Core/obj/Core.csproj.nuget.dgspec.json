@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Core\\Core.csproj": {}
+    "C:\\Users\\User\\Desktop\\Exam_Medicino\\Medicio_Exam\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Core\\Core.csproj": {
+    "C:\\Users\\User\\Desktop\\Exam_Medicino\\Medicio_Exam\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Exam_Medicino\\Medicio_Exam\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\ClassTime\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Core\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Exam_Medicino\\Medicio_Exam\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Exam_Medicino\\Medicio_Exam\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ClassTime\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

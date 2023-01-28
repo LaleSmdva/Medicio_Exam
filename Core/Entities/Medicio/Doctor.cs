@@ -15,6 +15,6 @@ namespace Core.Entities.Medicio
         public string? Name { get; set; }
         [Required,MaxLength(100)]
         public string? Position { get; set; }
-        public string? Image { get; set; }
+        public string? Image { get; set; } 
     }
 }

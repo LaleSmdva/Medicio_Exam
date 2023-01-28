@@ -2950,24 +2950,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ClassTime\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Exam_Medicino\\Medicio_Exam\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\ClassTime\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\Exam_Medicino\\Medicio_Exam\\DataAccess\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Exam_Medicino\\Medicio_Exam\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ClassTime\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2981,8 +2976,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Core\\Core.csproj"
+            "C:\\Users\\User\\Desktop\\Exam_Medicino\\Medicio_Exam\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Exam_Medicino\\Medicio_Exam\\Core\\Core.csproj"
             }
           }
         }
@@ -3036,7 +3031,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

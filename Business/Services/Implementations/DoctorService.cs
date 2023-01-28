@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Business.Services.Implementations
 {
-    public class DoctorService:IDoctorService
+    public class DoctorService : IDoctorService
     {
         private readonly IDoctorsRepository _repository;
         private readonly IWebHostEnvironment _env;
@@ -42,6 +42,7 @@ namespace Business.Services.Implementations
                 Position = entity.Position,
                 Image = fileName
             };
+
             await _repository.CreateAsync(doctor);
             await _repository.SaveAsync();
         }
@@ -49,8 +50,8 @@ namespace Business.Services.Implementations
         public async Task Delete(int id)
         {
             var model = await _repository.GetByIdAsync(id);
-            var fileName = Path.Combine(Helper.GetCopyPath(_env.WebRootPath, "assets", "img", "doctors"), model.Image);
 
+            var fileName = Path.Combine(Helper.GetCopyPath(_env.WebRootPath, "assets", "img", "doctors"), model.Image);
             if (System.IO.File.Exists(fileName))
             {
                 System.IO.File.Delete(fileName);
@@ -62,13 +63,13 @@ namespace Business.Services.Implementations
 
         public async Task SaveAsync()
         {
-           await _repository.SaveAsync();
+            await _repository.SaveAsync();
         }
 
         public async Task UpdateAsync(int id, UpdateDoctorVM entity)
         {
             var model = await _repository.GetByIdAsync(id);
-           
+
             var fileName = await entity.Image.CopyFileAsync(_env.WebRootPath, "assets", "img", "doctors");
 
             model.Name = entity.Name;
