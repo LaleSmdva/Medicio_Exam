@@ -1,4 +1,5 @@
-﻿using DataAccess.Repositories.Interfaces;
+﻿using Business.ViewModels;
+using DataAccess.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Medicio_Exam.Controllers
@@ -14,10 +15,10 @@ namespace Medicio_Exam.Controllers
 
         public IActionResult Index()
         {
-            //HomeVM homeVM = new()
-            //{
+            HomeViewModel homeVM = new()
+            {
 
-            //};
+            };
             return View(_repository.GetAll().AsEnumerable());
         }
     }

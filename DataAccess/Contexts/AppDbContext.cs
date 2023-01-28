@@ -16,5 +16,6 @@ namespace DataAccess.Contexts
         {
         }
         public DbSet<Doctor> Doctors { get; set; }
+        public DbSet<Settings> SettingsTable { get; set; }
     }
 }

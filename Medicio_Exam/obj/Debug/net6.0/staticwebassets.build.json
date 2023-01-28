@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ne+3YMyk/51jp3qsiTlx1zOrnOcBgiJzFYsCj536ehg=",
+  "Hash": "h1DeeQbyoiDdAIcI64Rt5P+yTfCe8nPFNEjDIvEdH/Y=",
   "Source": "Medicio_Exam",
   "BasePath": "_content/Medicio_Exam",
   "Mode": "Default",
@@ -2346,6 +2346,40 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\departments-5.jpg"
     },
     {
+      "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\321de414-d287-41c0-826c-e91ec042d9f1doctors-4.jpg",
+      "SourceId": "Medicio_Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\",
+      "BasePath": "_content/Medicio_Exam",
+      "RelativePath": "assets/img/doctors/321de414-d287-41c0-826c-e91ec042d9f1doctors-4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\doctors\\321de414-d287-41c0-826c-e91ec042d9f1doctors-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\35c5fd41-f600-40f3-b1d7-a42fb0662905doctors-2.jpg",
+      "SourceId": "Medicio_Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\",
+      "BasePath": "_content/Medicio_Exam",
+      "RelativePath": "assets/img/doctors/35c5fd41-f600-40f3-b1d7-a42fb0662905doctors-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\doctors\\35c5fd41-f600-40f3-b1d7-a42fb0662905doctors-2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\91eca950-83f9-4597-92b8-5166b27bfee0doctors-4.jpg",
       "SourceId": "Medicio_Exam",
       "SourceType": "Discovered",
@@ -2429,6 +2463,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\doctors\\doctors-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\e110de8e-7523-4c52-9807-3b0d7d10087bdoctors-1.jpg",
+      "SourceId": "Medicio_Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\",
+      "BasePath": "_content/Medicio_Exam",
+      "RelativePath": "assets/img/doctors/e110de8e-7523-4c52-9807-3b0d7d10087bdoctors-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\doctors\\e110de8e-7523-4c52-9807-3b0d7d10087bdoctors-1.jpg"
     },
     {
       "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\e985526e-58f6-4717-9b8e-218cd22ceaaddoctors-4.jpg",

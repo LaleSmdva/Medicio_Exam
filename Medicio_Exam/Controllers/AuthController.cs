@@ -11,7 +11,7 @@ namespace Medicio_Exam.Controllers
     /// Username:lalala, Password:Newpass123.
     /// Username:admin, Password:Newpass123. 
 
-    [Authorize(Roles="Admin")]
+    //[Authorize(Roles = "Admin")]
     public class AuthController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
@@ -92,6 +92,17 @@ namespace Medicio_Exam.Controllers
                 return View(loginVM);
             }
             return RedirectToAction("Index", "Home");
+        }
+
+        [HttpPost]
+        //[AllowAnonymous]
+        public async Task<IActionResult> Logout()
+        {
+            if(User.Identity.IsAuthenticated)
+            {
+                await _signInManager.SignOutAsync();
+            }
+            return RedirectToAction("Home", "Index");
         }
 
 
