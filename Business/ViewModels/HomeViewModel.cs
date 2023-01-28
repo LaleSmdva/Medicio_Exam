@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Entities.Medicio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace Business.ViewModels
 {
     public class HomeViewModel
     {
-        public int Employees { get; set; }
+        public IEnumerable<Doctor> Doctors { get; set; }
     }
 }

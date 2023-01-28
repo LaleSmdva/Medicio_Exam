@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "l7sbzXzW6kPLuEQa9I63eTKYuWHiOiZ8a0fKuPyyCwg=",
+  "Hash": "Ne+3YMyk/51jp3qsiTlx1zOrnOcBgiJzFYsCj536ehg=",
   "Source": "Medicio_Exam",
   "BasePath": "_content/Medicio_Exam",
   "Mode": "Default",
@@ -2344,6 +2344,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\departments-5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\91eca950-83f9-4597-92b8-5166b27bfee0doctors-4.jpg",
+      "SourceId": "Medicio_Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\",
+      "BasePath": "_content/Medicio_Exam",
+      "RelativePath": "assets/img/doctors/91eca950-83f9-4597-92b8-5166b27bfee0doctors-4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\doctors\\91eca950-83f9-4597-92b8-5166b27bfee0doctors-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\c593365a-c828-466c-968f-6231cc444f06doctors-2.jpg",
+      "SourceId": "Medicio_Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\",
+      "BasePath": "_content/Medicio_Exam",
+      "RelativePath": "assets/img/doctors/c593365a-c828-466c-968f-6231cc444f06doctors-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\doctors\\c593365a-c828-466c-968f-6231cc444f06doctors-2.jpg"
     },
     {
       "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\doctors-1.jpg",
