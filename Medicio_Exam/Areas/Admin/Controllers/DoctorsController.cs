@@ -3,12 +3,14 @@ using Business.Utilities;
 using Business.ViewModels.Doctors;
 using Core.Entities.Medicio;
 using DataAccess.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing.Constraints;
 
 namespace Medicio_Exam.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles ="Admin")]
     public class DoctorsController : Controller
     {
         

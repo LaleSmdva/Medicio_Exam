@@ -31,6 +31,8 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opts =>
 builder.Services.AddScoped<IDoctorsRepository, DoctorsRepository>();
 builder.Services.AddScoped<IDoctorService, DoctorService>();
 
+//builder.Services.ConfigureApplicationCookie(options => options.LoginPath = "/Account/LogIn");
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
