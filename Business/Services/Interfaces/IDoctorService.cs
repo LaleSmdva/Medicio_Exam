@@ -17,5 +17,4 @@ public interface IDoctorService
     Task UpdateAsync(int id,UpdateDoctorVM entity);
     Task Delete(int id);
     Task SaveAsync();
-    DbSet<Doctor> _table { get; }
 }

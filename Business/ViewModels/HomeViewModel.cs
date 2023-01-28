@@ -9,7 +9,7 @@ namespace Business.ViewModels
 {
     public class HomeViewModel
     {
-        public IEnumerable<Doctor> Doctors { get; set; }
-        public IEnumerable<Settings> SettingsTable { get; set; }
+        public IEnumerable<Doctor>? Doctors { get; set; }
+        public IEnumerable<Settings>? SettingsTable { get; set; }
     }
 }

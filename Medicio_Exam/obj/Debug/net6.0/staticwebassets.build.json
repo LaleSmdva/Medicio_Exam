@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h1DeeQbyoiDdAIcI64Rt5P+yTfCe8nPFNEjDIvEdH/Y=",
+  "Hash": "I+QWs4nontepBNpnu48DfLFMRCFJSVPW8DAjN1cTcSw=",
   "Source": "Medicio_Exam",
   "BasePath": "_content/Medicio_Exam",
   "Mode": "Default",
@@ -2497,6 +2497,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\doctors\\e985526e-58f6-4717-9b8e-218cd22ceaaddoctors-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\f20e81d5-88b0-4bea-bad6-1847d70fc10bdoctors-4.jpg",
+      "SourceId": "Medicio_Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\",
+      "BasePath": "_content/Medicio_Exam",
+      "RelativePath": "assets/img/doctors/f20e81d5-88b0-4bea-bad6-1847d70fc10bdoctors-4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\doctors\\f20e81d5-88b0-4bea-bad6-1847d70fc10bdoctors-4.jpg"
     },
     {
       "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\ff8b8f03-d458-4225-8814-f437a741e6addoctors-3.jpg",

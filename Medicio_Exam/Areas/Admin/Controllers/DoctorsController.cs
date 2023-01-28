@@ -61,7 +61,7 @@ namespace Medicio_Exam.Areas.Admin.Controllers
 
         public async Task<IActionResult> Update(int id)
         {
-            if (!ModelState.IsValid) return View();
+            if (!ModelState.IsValid) return View(id);
             var model = await _service.GetByIdAsync(id);
             if (model is null) return NotFound();
             if (id!=model.Id) return BadRequest();

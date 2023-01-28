@@ -24,8 +24,6 @@ namespace Business.Services.Implementations
             _env = env;
         }
 
-        public DbSet<Doctor> _table => throw new NotImplementedException();
-
         public IEnumerable<Doctor> GetAll()
         {
             return _repository.GetAll().AsEnumerable();
