@@ -1,0 +1,22 @@
+﻿@using Core.Entities.Medicio
+@model Doctor
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post">
+	<div class="border p-3 mt-4 ml-4">
+
+
+		<h1>@Model.Name</h1>
+		<h5>@Model.Position</h5>
+		<img src="~/assets/img/doctors/@Model.Image" height="100px " />
+		<br />
+		<br />
+		<button class="btn btn-info" type="submit">Delete</button>
+		<a class="btn btn-secondary" asp-action="Index">Go back</a>
+
+	</div>
+</form>
+

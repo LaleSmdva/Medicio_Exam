@@ -1,3 +1,5 @@
+using Business.Services.Implementations;
+using Business.Services.Interfaces;
 using DataAccess.Contexts;
 using DataAccess.Repositories.Implementations;
 using DataAccess.Repositories.Interfaces;
@@ -14,6 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(opts =>
 });
 
 builder.Services.AddScoped<IDoctorsRepository, DoctorsRepository>();
+builder.Services.AddScoped<IDoctorService, DoctorService>();
 
 var app = builder.Build();
 
@@ -30,7 +33,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
       name: "areas",
-      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+      pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
     );
 
 app.MapControllerRoute(

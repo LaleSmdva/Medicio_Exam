@@ -1,0 +1,19 @@
+﻿@using Core.Entities.Medicio
+@model Doctor
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="border p-3 mt-4 ml-4">
+
+
+	<h1>@Model.Name</h1>
+	<h5>@Model.Position</h5>
+	<img src="~/assets/img/doctors/@Model.Image" height="100px " />
+	<br />
+	<br />
+	<a class="btn btn-info" asp-action="Index">Go back</a>
+
+</div>
+
