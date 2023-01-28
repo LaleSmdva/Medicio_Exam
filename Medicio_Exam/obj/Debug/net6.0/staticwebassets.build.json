@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I+QWs4nontepBNpnu48DfLFMRCFJSVPW8DAjN1cTcSw=",
+  "Hash": "b8lFjGbRNzfRs5GkAnd2bGAeYXm+fzV6y+BUAYSFsnE=",
   "Source": "Medicio_Exam",
   "BasePath": "_content/Medicio_Exam",
   "Mode": "Default",
@@ -2346,6 +2346,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\departments-5.jpg"
     },
     {
+      "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\20f19630-85bf-4520-9ff2-09753766bf08doctors-2.jpg",
+      "SourceId": "Medicio_Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\",
+      "BasePath": "_content/Medicio_Exam",
+      "RelativePath": "assets/img/doctors/20f19630-85bf-4520-9ff2-09753766bf08doctors-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\doctors\\20f19630-85bf-4520-9ff2-09753766bf08doctors-2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\321de414-d287-41c0-826c-e91ec042d9f1doctors-4.jpg",
       "SourceId": "Medicio_Exam",
       "SourceType": "Discovered",
@@ -2412,6 +2429,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\doctors\\c593365a-c828-466c-968f-6231cc444f06doctors-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\c6517655-a00e-4f9a-93a1-2fff0ab190d2doctors-1.jpg",
+      "SourceId": "Medicio_Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\",
+      "BasePath": "_content/Medicio_Exam",
+      "RelativePath": "assets/img/doctors/c6517655-a00e-4f9a-93a1-2fff0ab190d2doctors-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\doctors\\c6517655-a00e-4f9a-93a1-2fff0ab190d2doctors-1.jpg"
     },
     {
       "Identity": "C:\\Users\\ClassTime\\Desktop\\Medicio_Exam\\Medicio_Exam\\wwwroot\\assets\\img\\doctors\\doctors-1.jpg",

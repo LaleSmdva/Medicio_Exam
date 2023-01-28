@@ -10,18 +10,18 @@ using Microsoft.AspNetCore.Routing.Constraints;
 namespace Medicio_Exam.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles ="Admin")]
+    //[Authorize(Roles ="Admin")]
     public class DoctorsController : Controller
     {
         
-        private readonly IWebHostEnvironment _env;
+        //private readonly IWebHostEnvironment _env;
 
         private readonly IDoctorService _service;
 
-        public DoctorsController(IWebHostEnvironment env, IDoctorService service)
+        public DoctorsController(/*IWebHostEnvironment env,*/ IDoctorService service)
         {
             
-            _env = env;
+            //_env = env;
             _service = service;
         }
 
@@ -46,6 +46,7 @@ namespace Medicio_Exam.Areas.Admin.Controllers
         public async Task<IActionResult> Create(CreateDoctorVM createDoctorVM)
         {
             if(!ModelState.IsValid) return View(createDoctorVM);
+            if (createDoctorVM is null) return NotFound();
             //var fileName =await createDoctorVM.Image.CopyFileAsync(_env.WebRootPath, "assets", "img", "doctors");
             //Doctor doctor = new()
             //{
@@ -99,6 +100,7 @@ namespace Medicio_Exam.Areas.Admin.Controllers
         {
             var model = await _service.GetByIdAsync(id);
             if (model is null) return NotFound();
+            if(id!=model.Id) return BadRequest();
             //_repository.Delete(model);
             //await _repository.SaveAsync();
             return View(model);
@@ -112,6 +114,7 @@ namespace Medicio_Exam.Areas.Admin.Controllers
             if (!ModelState.IsValid) return View();
             var model = await _service.GetByIdAsync(id);
             if(model is null) return NotFound();
+            if (id != model.Id) return BadRequest();
 
             // var fileName=Path.Combine(Helper.GetCopyPath(_env.WebRootPath, "assets", "img", "doctors"), model.Image);
 
